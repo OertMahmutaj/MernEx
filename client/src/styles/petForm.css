@@ -1,0 +1,75 @@
+  h2 {
+      margin-bottom: 20px;
+  }
+
+  .label-group {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 10px;
+      border: 2px solid;
+      padding: 5px;
+      background-color: #fff;
+      height: 400px;
+      width: auto;
+      overflow: hidden;
+      font-size: larger;
+      width: 800px;
+  }
+
+  label {
+      font-weight: bold;
+      margin-top: 10px;
+  }
+
+  input[type="text"] {
+      padding: 8px;
+      margin-top: 8px;
+      border: none;
+      border: 2px solid;
+      font-size: 16px;
+      width: 200px;
+      height: 10px;
+  }
+
+  button[type="submit"] {
+      width: 200px;
+      height: 35px;
+      background-color: #007BFF;
+      color: white;
+      border: solid black 1px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 50px;
+      margin-left: 4px;
+      box-shadow: 5px 5px 1px black;
+  }
+
+  button[type="submit"]:hover {
+      background: linear-gradient(to right, #007BFF, #0056b3);
+      text-align: center;
+  }
+
+  p {
+      color: #ff0000;
+      font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 0;
+  }
+
+  a {
+      color: #007BFF;
+      text-decoration: none;
+      font-size: 12px;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  .label-group-item {
+      display: flex;
+      padding: 5px;
+      flex-direction: column;
+      width: 300px;
+      height: 80px;
+  }
